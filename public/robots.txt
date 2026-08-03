@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Allow: /shop
+Allow: /product/
+
+# Block crawlers and scanners from dynamic simulated operations
+Disallow: /checkout
+Disallow: /orders
+Disallow: /api/
+Disallow: /_next/
